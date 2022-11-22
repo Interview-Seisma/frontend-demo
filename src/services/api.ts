@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from "axios";
 import { CalculateRepsonse, Employee } from "./Employee";
 
 export const api = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: "https://seisma-backend.herokuapp.com",
 });
 
 export const employeeCalculate = async ({
